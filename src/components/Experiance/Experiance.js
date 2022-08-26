@@ -13,7 +13,7 @@ const Experiance = () => {
 
             <div className="container ex_container">
                 <div className="ex_front">
-                    <h3>FrontEnd Development</h3>
+                    <h3>Front-End Development</h3>
                     <div className="ex_content">
                         {ExFrontData.map(({ id, exName, exLevel, icons }) => (
                             <Exfrontlist key={id}
@@ -25,7 +25,7 @@ const Experiance = () => {
                 </div>
 
                 <div className="ex_back">
-                    <h3>FrontEnd Development</h3>
+                    <h3>Back-End Development</h3>
                     <div className="ex_content">
                         {ExBackData.map(({ id, exName, exLevel, icons }) => (
                             <Exbacklist key={id}

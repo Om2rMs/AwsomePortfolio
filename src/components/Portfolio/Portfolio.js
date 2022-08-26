@@ -10,13 +10,11 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio_container">
-                {PortData.map(({ id, pImg, pText, pLink1, pLink2, pName, pLive }) => (
+                {PortData.map(({ id, pImg, pText, pLink2, pLive }) => (
                     <PortItems key={id}
                         pImg={pImg}
                         pText={pText}
-                        pLink1={pLink1}
                         pLink2={pLink2}
-                        pName={pName}
                         pLive={pLive}
                     />
                 ))}

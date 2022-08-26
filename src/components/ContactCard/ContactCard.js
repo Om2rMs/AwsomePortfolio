@@ -6,7 +6,7 @@ const ContactCard = ({ id, contactType, contactText, contactLink, contactTextLin
         <article key={id} className='contact_option'>
             {icons}
             <h4>{contactType}</h4>
-            <h5>{contactText}</h5>
+            <small>{contactText}</small>
             <a href={contactLink} target="_blank">{contactTextLink}</a>
         </article>
     );

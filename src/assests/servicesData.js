@@ -1,10 +1,11 @@
 import { BiHome } from 'react-icons/bi';
+import { AiOutlineHtml5 } from 'react-icons/ai'
 
 
 export const sData = [
     {
         id: 1,
-        sName: 'Experiance',
+        sName: 'HTML',
         stats: {
             list1: '3+ Years Working',
             list2: '3+ Years Working',
@@ -16,7 +17,7 @@ export const sData = [
 
 
         },
-        icons: <BiHome className='services_icon' />
+        icons: <AiOutlineHtml5 className='services_icon' />
     },
     {
         id: 2,

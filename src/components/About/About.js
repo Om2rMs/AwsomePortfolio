@@ -1,9 +1,9 @@
 import React from "react";
 import './About.css';
-import me from '../../assests/omar.png';
 import { contentData } from '../../assests/aboutContentData';
 import Card from "../Card/Card";
-import content from '../../assests/great.png'
+import identify from '../../assests/me.gif';
+
 
 
 
@@ -18,7 +18,7 @@ const About = () => {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me_img">
-                        <img src={content} alt=" about_me" className="img_me"></img>
+                        <img src={identify} alt=" about_me" className="img_me"></img>
                     </div>
                 </div>
 
@@ -34,14 +34,11 @@ const About = () => {
                     </div>
 
                     <p>
-                        In this practical react js project
-                        tutorial, I'm going to teach you,
-                        step-by-step, how to create and
-                        deploy a fully responsive personal
-                        portfolio website from scratch! By
-                        the end of this video, you will know
-                        how to create a react app from scratch,
-                        how to use
+                        <small> My Name is Omar</small>, a Graduate of the Arab Open University,
+                        majoring in ITC. Interested in programming and web design with modern features.
+                        On my way to becoming a <small>Fullstack developer</small>.
+                        I have intermediate knowledge of application programming by
+                        <small>  Flutter</small>
                     </p>
 
                     <a href="#Contact" className="btn btn-primary">Let's Talk</a>

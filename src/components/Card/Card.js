@@ -6,7 +6,7 @@ const Card = ({ id, cardName, cardText, icons }) => {
         <article key={id}
             className='about_card'>
             {icons}
-            <h5>{cardName}</h5>
+            <h4>{cardName}</h4>
             <small>{cardText}</small>
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Exbacklist.css';
+import { GiLevelEndFlag } from 'react-icons/gi'
 
 const Exbacklist = ({ id, exName, exLevel, icons }) => {
     return (
@@ -7,7 +8,7 @@ const Exbacklist = ({ id, exName, exLevel, icons }) => {
             {icons}
             <div>
                 <h4>{exName}</h4>
-                <small className='text-light'>{exLevel}</small>
+                <small className='text-light'><GiLevelEndFlag />{exLevel}</small>
             </div>
         </article>
     );

@@ -2,7 +2,7 @@ import React from "react";
 import './Header.css';
 import Btn from "./Btn";
 import HeaderSocials from "./HeaderSocials";
-import me from '../../assests/omar.png';
+import me from '../../assests/blobdesign.png';
 import Typewriter from 'typewriter-effect';
 
 
@@ -11,13 +11,13 @@ const Header = () => {
     return (
         <header>
             <div className="container header_container">
-                <h5>Hello I'm</h5>
-                <h1>Omar</h1>
+                <h5>Hello</h5>
+                <h1>I'm Omar</h1>
                 <h5 className="text-light">DEVELOPER
                     <div className="typewriter">
                         <Typewriter
                             options={{
-                                strings: ['Front-End', 'Back-End', 'UI/UX'],
+                                strings: ['Front-End', 'Back-End', 'UI/UX', 'Flutter'],
                                 autoStart: true,
                                 loop: true,
                             }}
@@ -27,9 +27,9 @@ const Header = () => {
                 <Btn />
                 <HeaderSocials />
 
-                <div className="omar">
-                    <img className="omar_img" src={me} alt="omar" ></img>
-                </div>
+
+                <img className="omar" src={me} alt="omar" ></img>
+
 
                 <a href="#Contact" className="scroll_down">Scroll Down</a>
             </div>

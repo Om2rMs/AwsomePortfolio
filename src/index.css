@@ -57,6 +57,12 @@ h4,
 h5 {
     font-weight: 500;
     color: black;
+
+}
+
+h2,
+h5 {
+    font-family: 'Silkscreen', cursive;
 }
 
 h1 {

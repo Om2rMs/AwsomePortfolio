@@ -11,11 +11,16 @@
 
 .portfolio_item:hover {
     border-color: var(--color-primary-var);
+    background: transparent;
+}
+
+.portfolio_item:hover h3 {
+    color: #fff;
 }
 
 
 .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1rem;
     color: var(--color-icon);
 }
 
@@ -27,5 +32,4 @@
 .portfolio_item_link {
     display: flex;
     gap: 1rem;
-    margin-bottom: 0.5rem;
 }
