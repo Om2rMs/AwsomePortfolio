@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/AwsomePortfolio/static/css/main.dfb6bde9.css",
-    "main.js": "/AwsomePortfolio/static/js/main.f0557991.js",
-    "static/media/omar.png": "/AwsomePortfolio/static/media/omar.2bfcfd0b69c8318aa208.png",
-    "static/media/great.png": "/AwsomePortfolio/static/media/great.a048b7823bce8d324af5.png",
+    "main.css": "/AwsomePortfolio/static/css/main.1dd65f1c.css",
+    "main.js": "/AwsomePortfolio/static/js/main.1c4756c7.js",
+    "static/media/rayban.png": "/AwsomePortfolio/static/media/rayban.a2a49f5319904c0cd7a9.png",
+    "static/media/blobdesign.png": "/AwsomePortfolio/static/media/blobdesign.25dd8f3429c781c42e76.png",
+    "static/media/finduser.png": "/AwsomePortfolio/static/media/finduser.6a1c49ee20e8bb812440.png",
+    "static/media/Notes.png": "/AwsomePortfolio/static/media/Notes.3fd1ff00905ee841f455.png",
+    "static/media/me.gif": "/AwsomePortfolio/static/media/me.3272fa9c861c718b769a.gif",
+    "static/media/payment.jpg": "/AwsomePortfolio/static/media/payment.fc7628412f1c21786034.jpg",
+    "static/media/cv-en1.pdf": "/AwsomePortfolio/static/media/cv-en1.90df52702017c19c191e.pdf",
     "index.html": "/AwsomePortfolio/index.html",
-    "main.dfb6bde9.css.map": "/AwsomePortfolio/static/css/main.dfb6bde9.css.map",
-    "main.f0557991.js.map": "/AwsomePortfolio/static/js/main.f0557991.js.map"
+    "main.1dd65f1c.css.map": "/AwsomePortfolio/static/css/main.1dd65f1c.css.map",
+    "main.1c4756c7.js.map": "/AwsomePortfolio/static/js/main.1c4756c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfb6bde9.css",
-    "static/js/main.f0557991.js"
+    "static/css/main.1dd65f1c.css",
+    "static/js/main.1c4756c7.js"
   ]
 }
