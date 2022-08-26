@@ -1,0 +1,88 @@
+.ex_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+
+.ex_container>div {
+    background: var(--color-bg-var);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 12);
+
+}
+
+
+.ex_container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-var);
+    cursor: default;
+}
+
+.ex_container>div:hover h3 {
+    color: #fff;
+}
+
+.ex_container>div:hover .ex_content .ex_details div h4 {
+    color: #fff;
+}
+
+
+.ex_container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-icon);
+}
+
+.ex_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .ex_container {
+        grid-template-columns: 1fr;
+    }
+
+    .ex_container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .ex_content {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ex_container {
+        gap: 1rem;
+    }
+
+    .ex_container>div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    #Experiance {
+        margin-top: 25rem
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+    #Experiance {
+        margin-top: 30rem
+    }
+
+
+}

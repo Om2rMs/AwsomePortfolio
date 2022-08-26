@@ -1,0 +1,10 @@
+.ex_details {
+    display: flex;
+    gap: 1rem;
+}
+
+.ex_details_icon {
+    margin-top: 3px;
+    color: var(--color-icon);
+    font-size: 1.4rem;
+}
