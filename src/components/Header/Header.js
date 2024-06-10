@@ -2,7 +2,7 @@ import React from "react";
 import './Header.css';
 import Btn from "./Btn";
 import HeaderSocials from "./HeaderSocials";
-import me from '../../assests/blobdesign.png';
+import me from '../../assests/developer.png';
 import Typewriter from 'typewriter-effect';
 
 
