@@ -80,12 +80,11 @@ h1 {
 
 .omar {
     position: absolute;
-    left: calc(50% - 20rem);
-    margin-top: 4rem;
     overflow: hidden;
-    margin-top: 2rem;
-    width: 40rem;
-    height: 40rem;
+    margin-top: 6rem;
+    width: 30rem;
+    height: 30rem;
+    margin-left: 18rem;
 }
 
 
@@ -116,6 +115,9 @@ h1 {
 
     .omar {
         margin-top: 6rem;
+        margin-left: 8rem;
+        
+
     }
 
     .scroll_down {
@@ -130,10 +132,47 @@ h1 {
     }
 }
 
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 100vh;
+    }
+
+    .header_container {
+        height: 70%;
+    }
+
+    .omar {
+        margin-top: 6rem;
+        margin-left: 5rem;
+        
+
+    }
+
+    .scroll_down {
+
+        bottom: 3rem;
+
+    }
+
+    .header_socials {
+
+        bottom: -2rem;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     header {
         height: 120vh;
 
+    }
+
+    .omar {
+        margin-top: 6rem;
+        margin-right: 20rem;
+        width: 20rem;
+    height: 20rem;
     }
 
     .header_socials,
@@ -146,7 +185,7 @@ h1 {
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 430px) {
     header {
         height: 125vh;
 
@@ -157,10 +196,15 @@ h1 {
         display: none;
     }
 
+    .omar {
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
     header {
         height: 135vh;
 
@@ -169,6 +213,11 @@ h1 {
     .header_socials,
     .scroll_down {
         display: none;
+    }
+
+    .omar {
+        margin-top: 6rem;
+        margin-left: 0.5rem;
     }
 
 
