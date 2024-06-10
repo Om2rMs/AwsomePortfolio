@@ -1,5 +1,5 @@
 import React from "react";
-import Cv from '../../files/cv-en1.pdf'
+import Cv from '../../files/CV.pdf'
 //import cv file from folder assests
 
 
